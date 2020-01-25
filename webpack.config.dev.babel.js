@@ -1,3 +1,6 @@
+// Import webpack
+import webpack from 'webpack';
+
 // Import webpack plugins
 import webpackMerge from 'webpack-merge';
 
@@ -24,9 +27,16 @@ export default webpackMerge(baseConfig, {
       colors: true,
     },
 
+    // Enable hot reloading server.
+    hot: true,
+
     // embed the webpack-dev-server runtime into the bundle
     inline: true,
 
     disableHostCheck: true,
   },
+
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+  ],
 });
