@@ -11,6 +11,7 @@ Simple Webpack 4 React Starter. It contains:
 - [x] Export Separate Vendor Files
 - [x] SASS and PostCSS support
 - [x] Separate CSS stylesheets generation
+- [x] ES6 linting with continuous linting on file change
 
 ## Prerequisites
 
@@ -29,3 +30,5 @@ Simple Webpack 4 React Starter. It contains:
 - `npm clean` - delete the dist folder
 - `npm start` - start the dev server and watch for changes
 - `npm run build` - create a production ready build in `dist` folder
+- `npm run eslint:check` - execute eslint check
+- `npm run eslint:fix` - execute eslint check and automatically fix problems

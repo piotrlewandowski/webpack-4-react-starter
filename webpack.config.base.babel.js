@@ -35,6 +35,20 @@ export default {
 
   module: {
     rules: [
+      // Enforcing linting before build
+      // The build should fail before it does anything else
+      {
+        enforce: 'pre',
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+        options: {
+          formatter: require('eslint-formatter-friendly'),
+          cache: DEVELOPMENT,
+          configFile: path.resolve(__dirname, '.eslintrc.json'),
+        },
+      },
+
       // Process JS(X) with Babel
       {
         test: /\.jsx?$/,
