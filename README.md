@@ -9,6 +9,8 @@ Simple Webpack 4 React Starter. It contains:
 - [x] Production config
 - [x] Automatic HTML generation
 - [x] Export Separate Vendor Files
+- [x] SASS and PostCSS support
+- [x] Separate CSS stylesheets generation
 
 ## Prerequisites
 
