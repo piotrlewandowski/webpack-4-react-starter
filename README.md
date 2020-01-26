@@ -12,6 +12,7 @@ Simple Webpack 4 React Starter. It contains:
 - [x] SASS and PostCSS support
 - [x] Separate CSS stylesheets generation
 - [x] ES6 linting with continuous linting on file change
+- [x] Stylelint
 
 ## Prerequisites
 
@@ -32,3 +33,5 @@ Simple Webpack 4 React Starter. It contains:
 - `npm run build` - create a production ready build in `dist` folder
 - `npm run eslint:check` - execute eslint check
 - `npm run eslint:fix` - execute eslint check and automatically fix problems
+- `npm run stylelint:check` - execute stylelint check
+- `npm run stylelint:fix` - execute stylelint check and automatically fix problems
