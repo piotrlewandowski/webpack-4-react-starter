@@ -20,7 +20,7 @@ Simple Webpack 4 React Starter. It contains:
 
 ## Getting Started
 
-1. Clone the repository `git clone git@github.com:piotrlewandowski/webpack-4-es6-starter.git`
+1. Clone the repository `git clone git@github.com:piotrlewandowski/webpack-4-react-starter.git`
 2. If you're using NVM run `nvm use` inside project directory to use node version set in `.nvmrc` file
 3. Run `npm install` or `npm i` to install all the dependencies
 4. To begin development task, run `npm start`
