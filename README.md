@@ -1,8 +1,8 @@
 # Webpack 4 React Starter
 
 Simple Webpack 4 React Starter. It contains:
-- [x] React 16.12.0
-- [x] Latest Webpack 4 (v4.41.5) and Webpack Dev Server (v3.10.1) with Scope Hoisting enabled
+- [x] React 16.13.1
+- [x] Latest Webpack 4 (v4.43.0) and Webpack Dev Server (v3.11.0) with Scope Hoisting enabled
 - [x] Babel 7
 - [x] ECMAScript 6+ and JSX support 
 - [x] [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement)
@@ -20,7 +20,7 @@ Simple Webpack 4 React Starter. It contains:
 
 ## Getting Started
 
-1. Clone the repository `git clone git@github.com:piotrlewandowski/webpack-4-es6-starter.git`
+1. Clone the repository `git clone git@github.com:piotrlewandowski/webpack-4-react-starter.git`
 2. If you're using NVM run `nvm use` inside project directory to use node version set in `.nvmrc` file
 3. Run `npm install` or `npm i` to install all the dependencies
 4. To begin development task, run `npm start`
