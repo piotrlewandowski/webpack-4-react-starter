@@ -1,16 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
+const App = () => {
+  return (
+    <>
       <h1>Webpack 4 React Starter</h1>
-    )
-  }
-}
+    </>
+  );
+};
 
-export { App }
+export { App };
