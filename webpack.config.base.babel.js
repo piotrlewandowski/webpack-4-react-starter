@@ -84,6 +84,7 @@ export default {
     new WebpackNotifierPlugin({
       title: PKG.description,
       message: 'Compilation done!',
+      alwaysNotify: true,
     }),
     new HtmlWebpackPlugin({
       template: require('html-webpack-template'),

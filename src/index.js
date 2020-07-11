@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { ErrorBoundary } from './ErrorBoundary';
 import { App } from './app';
 
 import './styles/main.scss';
 
 const render = () => {
   ReactDOM.render(
-    <App/>,
+    <ErrorBoundary>
+      <App/>
+    </ErrorBoundary>,
     document.getElementById('app')
   );
 };
