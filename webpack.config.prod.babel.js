@@ -2,7 +2,7 @@
 import webpack from 'webpack';
 
 // Import webpack plugins
-import webpackMerge from 'webpack-merge';
+import { merge as webpackMerge } from 'webpack-merge';
 import TerserPlugin from 'terser-webpack-plugin';
 
 // Import common configuration

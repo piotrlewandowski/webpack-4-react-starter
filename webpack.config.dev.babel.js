@@ -2,7 +2,7 @@
 import webpack from 'webpack';
 
 // Import webpack plugins
-import webpackMerge from 'webpack-merge';
+import { merge as webpackMerge } from 'webpack-merge';
 
 // Import common configuration
 import baseConfig from './webpack.config.base.babel';
