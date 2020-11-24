@@ -9,9 +9,9 @@ import './styles/main.scss';
 const render = () => {
   ReactDOM.render(
     <ErrorBoundary>
-      <App/>
+      <App />
     </ErrorBoundary>,
-    document.getElementById('app')
+    document.getElementById('app'),
   );
 };
 

@@ -20,9 +20,7 @@ export default webpackMerge(baseConfig, {
 
   devtool: 'cheap-module-source-map',
 
-  plugins: [
-    new webpack.optimize.OccurrenceOrderPlugin(),
-  ],
+  plugins: [new webpack.optimize.OccurrenceOrderPlugin()],
 
   optimization: {
     minimize: true,
