@@ -1,7 +1,7 @@
 # Webpack 4 React Starter
 
 Simple Webpack 4 React Starter. It contains:
-- [x] React 16.14.0
+- [x] React 17.0.1
 - [x] Latest Webpack 4 (v4.44.2) and Webpack Dev Server 3 (v3.11.0) with Scope Hoisting enabled
 - [x] Babel 7
 - [x] ECMAScript 6+ and JSX support 
