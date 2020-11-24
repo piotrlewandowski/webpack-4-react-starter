@@ -30,8 +30,8 @@
   },
   "homepage": "https://github.com/piotrlewandowski/webpack-4-react-starter#readme",
   "dependencies": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.7",
