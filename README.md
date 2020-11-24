@@ -13,6 +13,8 @@ Simple Webpack 4 React Starter. It contains:
 - [x] Separate CSS stylesheets generation
 - [x] ES6 linting with continuous linting on file change
 - [x] Stylelint
+- [x] Prettier
+- [x] Linting files and commit messages on commit
 
 ## Prerequisites
 
