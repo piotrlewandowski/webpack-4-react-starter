@@ -38,7 +38,5 @@ export default webpackMerge(baseConfig, {
     overlay: true,
   },
 
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-  ],
+  plugins: [new webpack.HotModuleReplacementPlugin()],
 });
